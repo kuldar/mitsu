@@ -1,0 +1,176 @@
+[
+  {
+    "id": "engine_rpm",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "vehicle_speed",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "coolant_temperature",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "calculated_engine_load",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "mass_airflow",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "throttle_position",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "intake_air_temperature",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "control_module_voltage",
+    "status": "documented_but_not_tested",
+    "system": "engine",
+    "detail": "Standard OBD reading. Availability is discovered per connection; validate it against your own instruments."
+  },
+  {
+    "id": "adapter_supply_voltage",
+    "status": "documented_but_not_tested",
+    "system": "adapter",
+    "detail": "Adapter ATRV supply reading used for preflight. Not a standard ECU PID or calibrated battery-health measurement."
+  },
+  {
+    "id": "steering_wheel_angle",
+    "status": "documented_but_not_tested",
+    "system": "AWC",
+    "detail": "Manual parked manufacturer-specific AWC snapshot. Scale and applicability need independent validation; not discovered through standard supported-PID bitmaps."
+  },
+  {
+    "id": "cvt_temperature",
+    "status": "documented_but_not_tested",
+    "system": "CVT",
+    "detail": "Experimental manufacturer-specific candidate. Not validated for this vehicle."
+  },
+  {
+    "id": "cvt_raw_data",
+    "status": "documented_but_not_tested",
+    "system": "CVT",
+    "detail": "Experimental manufacturer-specific candidate. Not validated for this vehicle."
+  },
+  {
+    "id": "abs_wheel_speeds",
+    "status": "documented_but_not_tested",
+    "system": "ABS",
+    "detail": "Experimental manufacturer-specific candidate. Not validated for this vehicle."
+  },
+  {
+    "id": "fuel_level",
+    "status": "not_implemented",
+    "system": "engine",
+    "detail": "Standard OBD candidate, not currently polled/displayed. Availability must be discovered on this vehicle."
+  },
+  {
+    "id": "fuel_rate",
+    "status": "not_implemented",
+    "system": "engine",
+    "detail": "Standard OBD candidate, not currently polled/displayed. Availability must be discovered on this vehicle."
+  },
+  {
+    "id": "fuel_consumption_estimate",
+    "status": "documented_but_not_tested",
+    "system": "calculated",
+    "detail": "MAF-based estimate assumes fuel composition and mixture; no consumption number produced."
+  },
+  {
+    "id": "awc_other_data",
+    "status": "documented_but_not_tested",
+    "system": "AWC",
+    "detail": "No generic AWC polling implemented; only a manual parked steering snapshot is available."
+  },
+  {
+    "id": "permanent_emissions_dtcs",
+    "status": "not_implemented",
+    "system": "powertrain",
+    "detail": "No permanent-code view implemented. Missing data never establishes absence of permanent faults."
+  },
+  {
+    "id": "stored_pending_emissions_dtcs",
+    "status": "documented_but_not_tested",
+    "system": "powertrain",
+    "detail": "Manual read-only standard stored/pending emissions-code check (03/07). Not a complete diagnostic check of every vehicle system."
+  },
+  {
+    "id": "passive_can_capture",
+    "status": "not_implemented",
+    "system": "adapter",
+    "detail": "No verified listen-only behavior; monitor commands are deliberately excluded."
+  },
+  {
+    "id": "door_driver",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Experimental raw body capture needs a compatible local controller profile and physical comparison. Real 3D state remains unknown."
+  },
+  {
+    "id": "door_passenger",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Experimental raw body capture needs a compatible local controller profile and physical comparison. Real 3D state remains unknown."
+  },
+  {
+    "id": "door_rear_left",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Experimental raw body capture needs a compatible local controller profile and physical comparison. Real 3D state remains unknown."
+  },
+  {
+    "id": "door_rear_right",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Experimental raw body capture needs a compatible local controller profile and physical comparison. Real 3D state remains unknown."
+  },
+  {
+    "id": "tailgate",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Experimental raw body capture needs a compatible local controller profile and physical comparison. Real 3D state remains unknown."
+  },
+  {
+    "id": "indicator_left",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Raw stalk/output candidates need physical validation. Combined turn output does not establish individual side flash phase."
+  },
+  {
+    "id": "indicator_right",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Raw stalk/output candidates need physical validation. Combined turn output does not establish individual side flash phase."
+  },
+  {
+    "id": "headlights",
+    "status": "documented_but_not_tested",
+    "system": "body_or_TPMS",
+    "detail": "Experimental raw body capture needs a compatible local controller profile and physical comparison. Real 3D state remains unknown."
+  },
+  {
+    "id": "tyre_pressures",
+    "status": "not_implemented",
+    "system": "body_or_TPMS",
+    "detail": "No validated per-wheel pressure reader implemented for this vehicle."
+  }
+]

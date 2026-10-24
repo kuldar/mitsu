@@ -1,0 +1,40 @@
+# Build products and local tool state
+build/
+DerivedData/
+*.xcresult/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Xcode per-user/account/signing files
+xcuserdata/
+*.xcuserstate
+*.xcsettings
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+*.cer
+*.ipa
+*.dSYM/
+Local.xcconfig
+*.local.xcconfig
+
+# Accounts, local configuration and actual vehicle evidence
+.env
+.env.*
+!.env.example
+*.local.json
+logs/
+reports/
+captures/
+private/
+Diagnostics/
+*.jsonl
+
+# Optional imported vehicle assets: review rights before ever tracking
+app/Mitsu/Resources/*.usdz
+assets/source/

@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C2F0062F0D56D89FB1898D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787BE2E376687952D7A46F8C /* WeatherService.swift */; };
+		0CE4E183C4C17564E48FD1A5 /* HistoryArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459987E548DCEB0F434359B /* HistoryArchive.swift */; };
+		13C67543C984F8AC95216CFE /* grass_nor_gl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1287C946823D2B5A881FB4 /* grass_nor_gl.jpg */; };
+		145333EAB5647269CCFC667A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2B8B63806D9D8BE015CE72 /* MapView.swift */; };
+		1D73FA62B20F1DC026AC697D /* OutdoorAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E8A37E3BC5B44C100ED70 /* OutdoorAssets.swift */; };
+		2A2BC72C24779AEA81661DA3 /* RoadsideEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A6BF81E13DD01BAE13826 /* RoadsideEnvironment.swift */; };
+		2C2E3864EDCCE754E60D990D /* ReadPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A85E068EA0AAB19C23AAD0 /* ReadPolicy.swift */; };
+		2CB35684AD9A585CCF789A40 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02711B7B1FB029C37C5FAA75 /* SpotifyService.swift */; };
+		3CC556CE5227EDC17D194DD5 /* TripStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98162F0D35449419643DEBAA /* TripStore.swift */; };
+		3CD5C8384F863528E3645E9F /* OutlanderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CDE71A33D81DD64CE26829 /* OutlanderModel.swift */; };
+		42BAFB31DD25E7DB3058C0F3 /* BluetoothClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E59AAD6FEA8C9119C304F /* BluetoothClient.swift */; };
+		4A8A6A48A6BA805590F5079D /* LocalSceneMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DBCA06D961BAD5A15EBFB7 /* LocalSceneMask.swift */; };
+		4CA985136076B9E5A26DD16E /* VehicleBodyRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1534541DDF8BE05144865 /* VehicleBodyRenderer.swift */; };
+		5ED6AF3E0C2E9863BF1D0C56 /* VehicleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F91FA846180DBF4184D12 /* VehicleScene.swift */; };
+		611EB9665853D0D9BAF7615A /* ParkedControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C495A9AEA4B299696A04341 /* ParkedControlsView.swift */; };
+		65C3F75D5E4D084245376C8F /* VehicleIdentityProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881757913F649B4AC7EB0961 /* VehicleIdentityProfile.swift */; };
+		6C452375AE5DAD68C41B6969 /* StudioEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19EF4E06E154E6B0B8778F /* StudioEnvironment.swift */; };
+		6F272A6B6617F173B19DB034 /* OBDCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733AE86ACBCDAC69D9CCD80B /* OBDCodec.swift */; };
+		76EABB04E01E1566F3F7EA8F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBBC5FAB9E8B3E850FC9B /* Theme.swift */; };
+		7A56C6FDA3DAD62E43238829 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8B4468117E4799FBDDB9C8 /* Trip.swift */; };
+		7A8ACED78AA69314C914131A /* asphalt_02_Rough.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43518D04B26C68797BD8E022 /* asphalt_02_Rough.jpg */; };
+		7C3650B8CF64D9F760AA1A50 /* ControlsProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC781381D5013D9EEF0CCB /* ControlsProbe.swift */; };
+		830DF1E51CC5503E6B3DE7EE /* BLELifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A0DC0410E19B5CEF17821 /* BLELifecycle.swift */; };
+		83FA218A207526BDC391F6F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A7ADF9635D302F4528CEBB /* SettingsView.swift */; };
+		8E12A5AD560F1DF5ABD1DDFF /* DashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C96F43378C9787D2A09E2 /* DashboardStore.swift */; };
+		91057EC86FB38039C3680731 /* BodyDataProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B95763F5C4AA300CE100 /* BodyDataProbe.swift */; };
+		91ED5BFD86B690B451A4C08F /* night.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 6E9C968407F7BCF49A127741 /* night.hdr */; };
+		9565024833B0F18F4EBD70C2 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B48626700A43DD8B8DF27 /* DashboardView.swift */; };
+		95E20575AB443FC26D700D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901A0BAA5438DCB5E066AE58 /* Assets.xcassets */; };
+		96D2181E0A6C9296824223FB /* asphalt_02_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A71F53D25898B6199DDAE15 /* asphalt_02_Diffuse.jpg */; };
+		9894AAE066CB067D95182ABF /* OutdoorShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C9F69459DFE83E9D14098DA8 /* OutdoorShaders.metal */; };
+		9FBFE6C8BA880914AB36928F /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457976C3A539B4FA6ED9C7E4 /* LocationService.swift */; };
+		A5671A6FC0F878F3285FDCF3 /* clear.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 1D06F9A6B5344C10C67738E1 /* clear.hdr */; };
+		A6C1960A7F58A3BBAA1B700D /* MitsuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A05D41B82AFD4E59573C063 /* MitsuApp.swift */; };
+		A72231605B701EFD1D612A8F /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39CCF33934EA18720BA1E5 /* VehicleView.swift */; };
+		AC80435C7E21230E4DC35529 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2394FB92B1CA363A1C9DE /* KeychainStore.swift */; };
+		AD12771BFBAE6AE9F65FCE38 /* BodyPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16C31E0C49E2E5439489772 /* BodyPresentationTests.swift */; };
+		AF652232A1360C8B3DAD576B /* VehicleBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C171574FD45FE32716E11C /* VehicleBodyView.swift */; };
+		B7E673B7C7C0C4E00D0FFF9D /* DashboardPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769BFFC1435348BEFB06B02A /* DashboardPresentationTests.swift */; };
+		BD7CE3E5F9264E8E8A7AA5DA /* Signals.json in Resources */ = {isa = PBXBuildFile; fileRef = A60607001A3298F210ED7A16 /* Signals.json */; };
+		C2025D16C810A7DD21FF9507 /* OutlanderAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6CD973F332BC562006E6F /* OutlanderAsset.swift */; };
+		C96013112C6FDD89D296E689 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A8246E671D1834241716C /* Telemetry.swift */; };
+		CE5358027F82F2347F329154 /* DiagnosticSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63F827FF2D3C970DF1FB856 /* DiagnosticSession.swift */; };
+		CFD45A62074E9B17C8B5AEF8 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30C39918945D4AC489659D /* TripsView.swift */; };
+		D92B68539BC20B396A335BF1 /* grass_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AFD4CD95848A1C88E655B29 /* grass_Diffuse.jpg */; };
+		DA28F54782735CD6D9AC8A17 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2682CD562CA5DDC9942090C1 /* MusicView.swift */; };
+		DEF773E865398DF44CB72DD7 /* overcast.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 4CEF7E8876E30C05B1381B83 /* overcast.hdr */; };
+		DF367FF0944D136E9900E324 /* BodyIdentityProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30504C9D37391360EA218DC /* BodyIdentityProbe.swift */; };
+		E5869CDF3F9F41CB52DA2FBE /* asphalt_02_nor_gl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF67568AD47ABAF3C2C47272 /* asphalt_02_nor_gl.jpg */; };
+		E76692233B33504F20F9C0D4 /* ProviderPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D22345245F439845C60BDD /* ProviderPolicy.swift */; };
+		EA517B471D0EF42F08D56329 /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D68CF476F32C65E057258 /* DriveView.swift */; };
+		F3D0AE879D85C510D0E14C8B /* DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B39EC955CB069ED2651C2C /* DashboardUITests.swift */; };
+		FE7967A0608D96F86044086C /* BodyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0D1A1BA3216B86E2F1F928 /* BodyState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33541961AF41ABE944EA2FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BB5229552F1338CE71428E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 316C7F6466E75006EFF10954;
+			remoteInfo = Mitsu;
+		};
+		DEFA89284A40E13C0BB0680D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BB5229552F1338CE71428E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 316C7F6466E75006EFF10954;
+			remoteInfo = Mitsu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02711B7B1FB029C37C5FAA75 /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
+		04F3B95763F5C4AA300CE100 /* BodyDataProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyDataProbe.swift; sourceTree = "<group>"; };
+		0CCCF289FECF01C3F468B6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13DBBBC5FAB9E8B3E850FC9B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		19A85E068EA0AAB19C23AAD0 /* ReadPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPolicy.swift; sourceTree = "<group>"; };
+		1AFD4CD95848A1C88E655B29 /* grass_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass_Diffuse.jpg; sourceTree = "<group>"; };
+		1B30C39918945D4AC489659D /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		1D06F9A6B5344C10C67738E1 /* clear.hdr */ = {isa = PBXFileReference; path = clear.hdr; sourceTree = "<group>"; };
+		2682CD562CA5DDC9942090C1 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		294E2F6028E2E12BBFD742B4 /* Mitsu.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Mitsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF1534541DDF8BE05144865 /* VehicleBodyRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleBodyRenderer.swift; sourceTree = "<group>"; };
+		3C495A9AEA4B299696A04341 /* ParkedControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkedControlsView.swift; sourceTree = "<group>"; };
+		3FE2394FB92B1CA363A1C9DE /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		43518D04B26C68797BD8E022 /* asphalt_02_Rough.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asphalt_02_Rough.jpg; sourceTree = "<group>"; };
+		443E8A37E3BC5B44C100ED70 /* OutdoorAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorAssets.swift; sourceTree = "<group>"; };
+		457976C3A539B4FA6ED9C7E4 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4CEF7E8876E30C05B1381B83 /* overcast.hdr */ = {isa = PBXFileReference; path = overcast.hdr; sourceTree = "<group>"; };
+		506A8246E671D1834241716C /* Telemetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
+		5A05D41B82AFD4E59573C063 /* MitsuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitsuApp.swift; sourceTree = "<group>"; };
+		60B39EC955CB069ED2651C2C /* DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUITests.swift; sourceTree = "<group>"; };
+		6A71F53D25898B6199DDAE15 /* asphalt_02_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asphalt_02_Diffuse.jpg; sourceTree = "<group>"; };
+		6D2B8B63806D9D8BE015CE72 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6E9C968407F7BCF49A127741 /* night.hdr */ = {isa = PBXFileReference; path = night.hdr; sourceTree = "<group>"; };
+		733AE86ACBCDAC69D9CCD80B /* OBDCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDCodec.swift; sourceTree = "<group>"; };
+		73D22345245F439845C60BDD /* ProviderPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderPolicy.swift; sourceTree = "<group>"; };
+		769BFFC1435348BEFB06B02A /* DashboardPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresentationTests.swift; sourceTree = "<group>"; };
+		77C171574FD45FE32716E11C /* VehicleBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleBodyView.swift; sourceTree = "<group>"; };
+		787BE2E376687952D7A46F8C /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		881757913F649B4AC7EB0961 /* VehicleIdentityProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleIdentityProfile.swift; sourceTree = "<group>"; };
+		8B7C96F43378C9787D2A09E2 /* DashboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardStore.swift; sourceTree = "<group>"; };
+		8D4B48626700A43DD8B8DF27 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		901A0BAA5438DCB5E066AE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98162F0D35449419643DEBAA /* TripStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStore.swift; sourceTree = "<group>"; };
+		9C39CCF33934EA18720BA1E5 /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		9DA6CD973F332BC562006E6F /* OutlanderAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlanderAsset.swift; sourceTree = "<group>"; };
+		A459987E548DCEB0F434359B /* HistoryArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryArchive.swift; sourceTree = "<group>"; };
+		A60607001A3298F210ED7A16 /* Signals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Signals.json; sourceTree = "<group>"; };
+		AA5D68CF476F32C65E057258 /* DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		AC1287C946823D2B5A881FB4 /* grass_nor_gl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass_nor_gl.jpg; sourceTree = "<group>"; };
+		B5A7ADF9635D302F4528CEBB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B75E59AAD6FEA8C9119C304F /* BluetoothClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothClient.swift; sourceTree = "<group>"; };
+		BD19EF4E06E154E6B0B8778F /* StudioEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioEnvironment.swift; sourceTree = "<group>"; };
+		C30504C9D37391360EA218DC /* BodyIdentityProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyIdentityProbe.swift; sourceTree = "<group>"; };
+		C72F91FA846180DBF4184D12 /* VehicleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleScene.swift; sourceTree = "<group>"; };
+		C9F69459DFE83E9D14098DA8 /* OutdoorShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = OutdoorShaders.metal; sourceTree = "<group>"; };
+		CB3A0DC0410E19B5CEF17821 /* BLELifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELifecycle.swift; sourceTree = "<group>"; };
+		CC2A6BF81E13DD01BAE13826 /* RoadsideEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsideEnvironment.swift; sourceTree = "<group>"; };
+		CD0D1A1BA3216B86E2F1F928 /* BodyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyState.swift; sourceTree = "<group>"; };
+		CF67568AD47ABAF3C2C47272 /* asphalt_02_nor_gl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asphalt_02_nor_gl.jpg; sourceTree = "<group>"; };
+		CF8B4468117E4799FBDDB9C8 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		D16C31E0C49E2E5439489772 /* BodyPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPresentationTests.swift; sourceTree = "<group>"; };
+		D2CDE71A33D81DD64CE26829 /* OutlanderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlanderModel.swift; sourceTree = "<group>"; };
+		D886ACA29F67B4F6DF224163 /* MitsuUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MitsuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBC781381D5013D9EEF0CCB /* ControlsProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsProbe.swift; sourceTree = "<group>"; };
+		E3DBCA06D961BAD5A15EBFB7 /* LocalSceneMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSceneMask.swift; sourceTree = "<group>"; };
+		E63F827FF2D3C970DF1FB856 /* DiagnosticSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticSession.swift; sourceTree = "<group>"; };
+		FA9DA3809EF2F68ADE02D6E0 /* MitsuUnitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MitsuUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19654DA2EFD363C218276397 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B39EC955CB069ED2651C2C /* DashboardUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		497B83B8C881C1ED496FB38C /* NativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D16C31E0C49E2E5439489772 /* BodyPresentationTests.swift */,
+				769BFFC1435348BEFB06B02A /* DashboardPresentationTests.swift */,
+			);
+			path = NativeTests;
+			sourceTree = "<group>";
+		};
+		4B1643A16193F65422C62102 = {
+			isa = PBXGroup;
+			children = (
+				F2C3A813BE989769F1BAFE8B /* Mitsu */,
+				497B83B8C881C1ED496FB38C /* NativeTests */,
+				C68B877388914ED66C1B4D3D /* tools */,
+				19654DA2EFD363C218276397 /* UITests */,
+				6847D4F504C452EEA8BB9483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53417F83CA02FE63BD76A88C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3FE2394FB92B1CA363A1C9DE /* KeychainStore.swift */,
+				457976C3A539B4FA6ED9C7E4 /* LocationService.swift */,
+				02711B7B1FB029C37C5FAA75 /* SpotifyService.swift */,
+				98162F0D35449419643DEBAA /* TripStore.swift */,
+				787BE2E376687952D7A46F8C /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		53FCCC334C5FF9D6A7717D10 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				B75E59AAD6FEA8C9119C304F /* BluetoothClient.swift */,
+				E63F827FF2D3C970DF1FB856 /* DiagnosticSession.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		6847D4F504C452EEA8BB9483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294E2F6028E2E12BBFD742B4 /* Mitsu.app */,
+				D886ACA29F67B4F6DF224163 /* MitsuUITests.xctest */,
+				FA9DA3809EF2F68ADE02D6E0 /* MitsuUnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A01536BA21DA2411183EBA /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				6A71F53D25898B6199DDAE15 /* asphalt_02_Diffuse.jpg */,
+				CF67568AD47ABAF3C2C47272 /* asphalt_02_nor_gl.jpg */,
+				43518D04B26C68797BD8E022 /* asphalt_02_Rough.jpg */,
+				1D06F9A6B5344C10C67738E1 /* clear.hdr */,
+				1AFD4CD95848A1C88E655B29 /* grass_Diffuse.jpg */,
+				AC1287C946823D2B5A881FB4 /* grass_nor_gl.jpg */,
+				6E9C968407F7BCF49A127741 /* night.hdr */,
+				4CEF7E8876E30C05B1381B83 /* overcast.hdr */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		99077D7947B73EA53D145512 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E3DBCA06D961BAD5A15EBFB7 /* LocalSceneMask.swift */,
+				443E8A37E3BC5B44C100ED70 /* OutdoorAssets.swift */,
+				C9F69459DFE83E9D14098DA8 /* OutdoorShaders.metal */,
+				9DA6CD973F332BC562006E6F /* OutlanderAsset.swift */,
+				D2CDE71A33D81DD64CE26829 /* OutlanderModel.swift */,
+				CC2A6BF81E13DD01BAE13826 /* RoadsideEnvironment.swift */,
+				BD19EF4E06E154E6B0B8778F /* StudioEnvironment.swift */,
+				2EF1534541DDF8BE05144865 /* VehicleBodyRenderer.swift */,
+				C72F91FA846180DBF4184D12 /* VehicleScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		B2DA905C83D06D09BAA48E74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D4B48626700A43DD8B8DF27 /* DashboardView.swift */,
+				AA5D68CF476F32C65E057258 /* DriveView.swift */,
+				6D2B8B63806D9D8BE015CE72 /* MapView.swift */,
+				2682CD562CA5DDC9942090C1 /* MusicView.swift */,
+				3C495A9AEA4B299696A04341 /* ParkedControlsView.swift */,
+				B5A7ADF9635D302F4528CEBB /* SettingsView.swift */,
+				13DBBBC5FAB9E8B3E850FC9B /* Theme.swift */,
+				1B30C39918945D4AC489659D /* TripsView.swift */,
+				77C171574FD45FE32716E11C /* VehicleBodyView.swift */,
+				9C39CCF33934EA18720BA1E5 /* VehicleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C68B877388914ED66C1B4D3D /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				19A85E068EA0AAB19C23AAD0 /* ReadPolicy.swift */,
+			);
+			name = tools;
+			path = ../tools;
+			sourceTree = "<group>";
+		};
+		F2C3A813BE989769F1BAFE8B /* Mitsu */ = {
+			isa = PBXGroup;
+			children = (
+				8B7C96F43378C9787D2A09E2 /* DashboardStore.swift */,
+				0CCCF289FECF01C3F468B6AA /* Info.plist */,
+				5A05D41B82AFD4E59573C063 /* MitsuApp.swift */,
+				53FCCC334C5FF9D6A7717D10 /* Connection */,
+				F4DB4BBFFDA592B99E91023D /* Core */,
+				F62E6092F6023079AEFAF59D /* Resources */,
+				99077D7947B73EA53D145512 /* Scene */,
+				53417F83CA02FE63BD76A88C /* Services */,
+				B2DA905C83D06D09BAA48E74 /* Views */,
+			);
+			path = Mitsu;
+			sourceTree = "<group>";
+		};
+		F4DB4BBFFDA592B99E91023D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A0DC0410E19B5CEF17821 /* BLELifecycle.swift */,
+				04F3B95763F5C4AA300CE100 /* BodyDataProbe.swift */,
+				C30504C9D37391360EA218DC /* BodyIdentityProbe.swift */,
+				CD0D1A1BA3216B86E2F1F928 /* BodyState.swift */,
+				DDBC781381D5013D9EEF0CCB /* ControlsProbe.swift */,
+				A459987E548DCEB0F434359B /* HistoryArchive.swift */,
+				733AE86ACBCDAC69D9CCD80B /* OBDCodec.swift */,
+				73D22345245F439845C60BDD /* ProviderPolicy.swift */,
+				506A8246E671D1834241716C /* Telemetry.swift */,
+				CF8B4468117E4799FBDDB9C8 /* Trip.swift */,
+				881757913F649B4AC7EB0961 /* VehicleIdentityProfile.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F62E6092F6023079AEFAF59D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				901A0BAA5438DCB5E066AE58 /* Assets.xcassets */,
+				A60607001A3298F210ED7A16 /* Signals.json */,
+				75A01536BA21DA2411183EBA /* Environment */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		316C7F6466E75006EFF10954 /* Mitsu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2696A6BD724228C792111D3 /* Build configuration list for PBXNativeTarget "Mitsu" */;
+			buildPhases = (
+				0A8A35AAF166E7FDB16CFA6A /* Sources */,
+				3F8A25CB4142D9AF9A930A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mitsu;
+			packageProductDependencies = (
+			);
+			productName = Mitsu;
+			productReference = 294E2F6028E2E12BBFD742B4 /* Mitsu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74A2B4C5D47FCDE63C745B03 /* MitsuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1422B7EA67EC88F9540E3AB3 /* Build configuration list for PBXNativeTarget "MitsuUITests" */;
+			buildPhases = (
+				235AE22B356B30B29F91F639 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ECAE16528216F6FD1AAE35F /* PBXTargetDependency */,
+			);
+			name = MitsuUITests;
+			packageProductDependencies = (
+			);
+			productName = MitsuUITests;
+			productReference = D886ACA29F67B4F6DF224163 /* MitsuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E5A305DFC14506A36C2375CD /* MitsuUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E00C55E81BC2740E90F240 /* Build configuration list for PBXNativeTarget "MitsuUnitTests" */;
+			buildPhases = (
+				EE4B16FD120AC1FB26F7C03A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C1C22061FB7C34F385AF4B1 /* PBXTargetDependency */,
+			);
+			name = MitsuUnitTests;
+			packageProductDependencies = (
+			);
+			productName = MitsuUnitTests;
+			productReference = FA9DA3809EF2F68ADE02D6E0 /* MitsuUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3BB5229552F1338CE71428E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					316C7F6466E75006EFF10954 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					74A2B4C5D47FCDE63C745B03 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 316C7F6466E75006EFF10954;
+					};
+					E5A305DFC14506A36C2375CD = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F0F5B740B4C03CF83F067ACB /* Build configuration list for PBXProject "Mitsu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4B1643A16193F65422C62102;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6847D4F504C452EEA8BB9483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				316C7F6466E75006EFF10954 /* Mitsu */,
+				74A2B4C5D47FCDE63C745B03 /* MitsuUITests */,
+				E5A305DFC14506A36C2375CD /* MitsuUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8A25CB4142D9AF9A930A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E20575AB443FC26D700D78 /* Assets.xcassets in Resources */,
+				BD7CE3E5F9264E8E8A7AA5DA /* Signals.json in Resources */,
+				96D2181E0A6C9296824223FB /* asphalt_02_Diffuse.jpg in Resources */,
+				7A8ACED78AA69314C914131A /* asphalt_02_Rough.jpg in Resources */,
+				E5869CDF3F9F41CB52DA2FBE /* asphalt_02_nor_gl.jpg in Resources */,
+				A5671A6FC0F878F3285FDCF3 /* clear.hdr in Resources */,
+				D92B68539BC20B396A335BF1 /* grass_Diffuse.jpg in Resources */,
+				13C67543C984F8AC95216CFE /* grass_nor_gl.jpg in Resources */,
+				91ED5BFD86B690B451A4C08F /* night.hdr in Resources */,
+				DEF773E865398DF44CB72DD7 /* overcast.hdr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8A35AAF166E7FDB16CFA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830DF1E51CC5503E6B3DE7EE /* BLELifecycle.swift in Sources */,
+				42BAFB31DD25E7DB3058C0F3 /* BluetoothClient.swift in Sources */,
+				91057EC86FB38039C3680731 /* BodyDataProbe.swift in Sources */,
+				DF367FF0944D136E9900E324 /* BodyIdentityProbe.swift in Sources */,
+				FE7967A0608D96F86044086C /* BodyState.swift in Sources */,
+				7C3650B8CF64D9F760AA1A50 /* ControlsProbe.swift in Sources */,
+				8E12A5AD560F1DF5ABD1DDFF /* DashboardStore.swift in Sources */,
+				9565024833B0F18F4EBD70C2 /* DashboardView.swift in Sources */,
+				CE5358027F82F2347F329154 /* DiagnosticSession.swift in Sources */,
+				EA517B471D0EF42F08D56329 /* DriveView.swift in Sources */,
+				0CE4E183C4C17564E48FD1A5 /* HistoryArchive.swift in Sources */,
+				AC80435C7E21230E4DC35529 /* KeychainStore.swift in Sources */,
+				4A8A6A48A6BA805590F5079D /* LocalSceneMask.swift in Sources */,
+				9FBFE6C8BA880914AB36928F /* LocationService.swift in Sources */,
+				145333EAB5647269CCFC667A /* MapView.swift in Sources */,
+				A6C1960A7F58A3BBAA1B700D /* MitsuApp.swift in Sources */,
+				DA28F54782735CD6D9AC8A17 /* MusicView.swift in Sources */,
+				6F272A6B6617F173B19DB034 /* OBDCodec.swift in Sources */,
+				1D73FA62B20F1DC026AC697D /* OutdoorAssets.swift in Sources */,
+				9894AAE066CB067D95182ABF /* OutdoorShaders.metal in Sources */,
+				C2025D16C810A7DD21FF9507 /* OutlanderAsset.swift in Sources */,
+				3CD5C8384F863528E3645E9F /* OutlanderModel.swift in Sources */,
+				611EB9665853D0D9BAF7615A /* ParkedControlsView.swift in Sources */,
+				E76692233B33504F20F9C0D4 /* ProviderPolicy.swift in Sources */,
+				2C2E3864EDCCE754E60D990D /* ReadPolicy.swift in Sources */,
+				2A2BC72C24779AEA81661DA3 /* RoadsideEnvironment.swift in Sources */,
+				83FA218A207526BDC391F6F7 /* SettingsView.swift in Sources */,
+				2CB35684AD9A585CCF789A40 /* SpotifyService.swift in Sources */,
+				6C452375AE5DAD68C41B6969 /* StudioEnvironment.swift in Sources */,
+				C96013112C6FDD89D296E689 /* Telemetry.swift in Sources */,
+				76EABB04E01E1566F3F7EA8F /* Theme.swift in Sources */,
+				7A56C6FDA3DAD62E43238829 /* Trip.swift in Sources */,
+				3CC556CE5227EDC17D194DD5 /* TripStore.swift in Sources */,
+				CFD45A62074E9B17C8B5AEF8 /* TripsView.swift in Sources */,
+				4CA985136076B9E5A26DD16E /* VehicleBodyRenderer.swift in Sources */,
+				AF652232A1360C8B3DAD576B /* VehicleBodyView.swift in Sources */,
+				65C3F75D5E4D084245376C8F /* VehicleIdentityProfile.swift in Sources */,
+				5ED6AF3E0C2E9863BF1D0C56 /* VehicleScene.swift in Sources */,
+				A72231605B701EFD1D612A8F /* VehicleView.swift in Sources */,
+				00C2F0062F0D56D89FB1898D /* WeatherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235AE22B356B30B29F91F639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D0AE879D85C510D0E14C8B /* DashboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4B16FD120AC1FB26F7C03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12771BFBAE6AE9F65FCE38 /* BodyPresentationTests.swift in Sources */,
+				B7E673B7C7C0C4E00D0FFF9D /* DashboardPresentationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C1C22061FB7C34F385AF4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 316C7F6466E75006EFF10954 /* Mitsu */;
+			targetProxy = DEFA89284A40E13C0BB0680D /* PBXContainerItemProxy */;
+		};
+		7ECAE16528216F6FD1AAE35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 316C7F6466E75006EFF10954 /* Mitsu */;
+			targetProxy = 33541961AF41ABE944EA2FD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C5A7079D4CB4EFA4817FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mitsu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mitsu;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to your selected KONNWEI adapter to read the Outlander dashboard information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your approximate position on the map when you choose to enable location.";
+				INFOPLIST_KEY_NSLocationalwaysUsageDescription = "Optional location for the dashboard map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mitsu;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.example.mitsu.preview;
+				"PRODUCT_NAME[sdk=macosx*]" = MitsuPreview;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3448A3396FE913E6689592F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mitsu.uitests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.example.mitsu.preview.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mitsu;
+			};
+			name = Release;
+		};
+		604FE5738E07B14C1F83F593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7AAC48940A232E0AF9F8DA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		AAF0594F8AC79551E30BC0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mitsu.unittests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitsu.app/Mitsu";
+				"TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/MitsuPreview.app/Contents/MacOS/MitsuPreview";
+			};
+			name = Release;
+		};
+		D46631DEE898A4B05062C106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mitsu.unittests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitsu.app/Mitsu";
+				"TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/MitsuPreview.app/Contents/MacOS/MitsuPreview";
+			};
+			name = Debug;
+		};
+		E5626FB1BAFBB587D5768B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mitsu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mitsu;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Connect to your selected KONNWEI adapter to read the Outlander dashboard information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your approximate position on the map when you choose to enable location.";
+				INFOPLIST_KEY_NSLocationalwaysUsageDescription = "Optional location for the dashboard map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mitsu;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.example.mitsu.preview;
+				"PRODUCT_NAME[sdk=macosx*]" = MitsuPreview;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9C72CE20D7FEA40C820A3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.mitsu.uitests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.example.mitsu.preview.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mitsu;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1422B7EA67EC88F9540E3AB3 /* Build configuration list for PBXNativeTarget "MitsuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C72CE20D7FEA40C820A3AB /* Debug */,
+				3448A3396FE913E6689592F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49E00C55E81BC2740E90F240 /* Build configuration list for PBXNativeTarget "MitsuUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46631DEE898A4B05062C106 /* Debug */,
+				AAF0594F8AC79551E30BC0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2696A6BD724228C792111D3 /* Build configuration list for PBXNativeTarget "Mitsu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5A7079D4CB4EFA4817FAAB /* Debug */,
+				E5626FB1BAFBB587D5768B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0F5B740B4C03CF83F067ACB /* Build configuration list for PBXProject "Mitsu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604FE5738E07B14C1F83F593 /* Debug */,
+				7AAC48940A232E0AF9F8DA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BB5229552F1338CE71428E /* Project object */;
+}
